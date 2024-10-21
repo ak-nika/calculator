@@ -49,6 +49,8 @@ window.onload = () => {
         if (/\d$/.test(expression)) {
           expression += "%";
         }
+      } else if (value === "C") {
+        expression = expression.slice(0, -1);
       } else {
         expression += value;
       }

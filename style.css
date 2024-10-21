@@ -94,6 +94,9 @@ button {
   color: #333;
   cursor: pointer;
 }
+button.ac {
+  grid-column: span 2;
+}
 button:hover {
   background: linear-gradient(145deg, #fae1cc, #f2c398);
 }
